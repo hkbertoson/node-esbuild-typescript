@@ -1,7 +1,7 @@
 {
-	"name": "gas-api",
+	"name": "nodesbuildstarter",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Starter Template for Node.js with esbuild and typescript",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
@@ -13,8 +13,12 @@
 		"dev:node": "node --watch dist/index.js",
 		"dev:esbuild": "pnpm run build --watch"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"node",
+		"esbuild",
+		"typescript"
+	],
+	"author": "Hunter Bertoson",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^20.8.10",
